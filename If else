@@ -1,0 +1,21 @@
+#difine TARGET 25
+#include <stdio.h>
+
+void main() {
+    int y;
+    
+    printf("Enter integer value: ");
+    scanf("%d",&y);
+    
+    if (y > TARGET)
+       printf("Too hight.");
+    else if (y < TARGET)
+       Printf("Too low.");
+    else
+       printf("Correct!!");
+       
+    getch();
+}
+
+
+ 
